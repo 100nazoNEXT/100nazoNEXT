@@ -7,28 +7,39 @@ body {
     background-color: #f5f5f5;
     font-family: "pixelMplus12";
     margin: auto;
-    width: 540px;
+    width: 100vw;
+}
+
+.size {
+    display: inline-block;
+    width: 100vw;
 }
 
 .number {
+    display: inline-block;
+    width: 18vw;
+    height: 18vw;
+    vertical-align: middle;
     text-align: center;
 }
 
 .number p {
     display: inline-block;
-    height: 61px;
-    width: 80px;
+    vertical-align: middle;
     font-size: 36px;
     color: white;
     background-color: #d23c0a;
     border: 3px  #000 solid;
-    padding-top: 19px;
+}
+
+.nazo {
+    width: 100vw;
 }
 
 img {
-    height: 500px;
-    width: 500px;
-    border: 25px #d23c0a solid;
+    height: 90vw;
+    width: 90vw;
+    border: 5vw #d23c0a solid;
 }
 
 .creator {
@@ -37,23 +48,44 @@ img {
 
 .ans {
     width: 60vw;
+    height: 10vw;
     border: 3px #000 solid;
+    margin-bottom: 5vw;
 }
 
 .send {
+    display: inline-block;
     background-color: #d23c0a;
     width: 15vw;
+    height: 10vw;
     border: 3px #000 solid;
+    margin-bottom: 5vw;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+}
+
+.btn p {
+    color: white;
 }
 
 .end {
     background-color: #242323;
     width: 24vw;
+    height: 10vw;
     border: 3px #000 solid;
+    margin-right: 2vw;
 }
 
 .hint {
     background-color: #1e5aaa;
     width: 50vw;
+    height: 10vw;
     border: 3px #000 solid;
+}
+
+.command {
+    margin-left: 3vw;
 }
