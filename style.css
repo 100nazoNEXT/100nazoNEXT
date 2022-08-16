@@ -4,20 +4,20 @@ header {
 }
 
 .logo {
-    width: 210px;
+    width: 30vw;
     border: 2px  #000 solid;
 }
 
 .three {
     background-color: #d23c0a;
-    width: 70px;
+    width: 10vw;
     border-top: 2px #000 solid;
     border-bottom: 2px #000 solid;
 }
 
 .naz0 {
     background-color: #1e5aaa;
-    width: 70px;
+    width: 10vw;
     border: 2px  #000 solid;
 }
 
@@ -30,7 +30,7 @@ body {
 
 section  img {
     width: 100vw;
-    margin-top: 74px;
+    margin-top: 10vw;
 }
 
 li {
