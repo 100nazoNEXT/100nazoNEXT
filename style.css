@@ -1,10 +1,5 @@
 @font-face {
     font-family: 'pixelMplus12';
-    src: url("PixelMplus12-Bold.ttf") format('ttf');
-}
-
-@font-face {
-    font-family: 'pixelMplus12';
     src: url("PixelMplus12-Regular.ttf") format('ttf');
 }
 
@@ -46,15 +41,15 @@ section  img {
 
 li {
     display: inline-block;
-    height: 20vw;
-    line-height: 20vw;
-    width: 20vw;
+    height: 15vw;
+    line-height: 15vw;
+    width: 15vw;
     font-size: 36px;
     color: white;
     list-style: none;
     text-align: center;
     vertical-align: middle;
-    margin: 24px 0 24px 40px;
+    margin: 0 0 10vw 10vw;
 }
 
 section {
