@@ -1,6 +1,7 @@
 header {
     float: left;
     position: fixed;
+    width: 100vw;
 }
 
 .logo {
@@ -46,10 +47,18 @@ li {
     margin: 24px 0 24px 40px;
 }
 
+section {
+    width: 100vw;
+    vertical-align: middle;
+}
+
 .introduction {
     background-color: white;
     display:  inline-block;
     border: 3px solid;
+    width: 90vw;
+    vertical-align: middle;
+    text-align: center;
     padding: 10px;
     margin: 15px;
 }
