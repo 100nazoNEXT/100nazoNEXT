@@ -34,7 +34,7 @@ header {
 
 body {
     background-color: #f5f5f5;
-    font-family: "pixelMplus12";
+    font-family: 'pixelMplus12';
     margin: auto;
     width: 100vw;
 }
@@ -46,9 +46,9 @@ section  img {
 
 li {
     display: inline-block;
-    height: 80px;
-    line-height: 80px;
-    width: 80px;
+    height: 20vw;
+    line-height: 20vw;
+    width: 20vw;
     font-size: 36px;
     color: white;
     list-style: none;
@@ -65,7 +65,7 @@ section {
 .introduction {
     background-color: white;
     display:  inline-block;
-    font-size: 40px;
+    font-size: 32px;
     border: 3px solid;
     width: 90vw;
     vertical-align: middle;
