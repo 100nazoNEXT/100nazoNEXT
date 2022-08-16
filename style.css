@@ -41,32 +41,35 @@ section  img {
 
 li {
     display: inline-block;
-    height: 15vw;
-    line-height: 15vw;
-    width: 15vw;
-    font-size: 36px;
+    height: 18vw;
+    line-height: 18vw;
+    width: 18vw;
+    font-size: 52px;
     color: white;
     list-style: none;
     text-align: center;
     vertical-align: middle;
-    margin: 0 0 10vw 10vw;
+    margin: 5vw 5vw 5vw 5vw;
+}
+
+ul {
+    margin-left: 8vw;
 }
 
 section {
     width: 100vw;
-    vertical-align: middle;
 }
 
 .introduction {
     background-color: white;
     display:  inline-block;
-    font-size: 32px;
+    font-size: 28px;
     border: 3px solid;
     width: 90vw;
     vertical-align: middle;
     text-align: center;
     padding: 10px;
-    margin: 15px;
+    margin-left: 5vw;
 }
 
 .a {
