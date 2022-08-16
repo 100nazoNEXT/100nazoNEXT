@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'pixelMplus12';
+    src: url("PixelMplus12-Regular.ttf") format('truetype');
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: "pixelMplus12";
+    margin: auto;
+    width: 540px;
+}
+
+.number {
+    text-align: center;
+}
+
+.number p {
+    display: inline-block;
+    height: 61px;
+    width: 80px;
+    font-size: 36px;
+    color: white;
+    background-color: #d23c0a;
+    border: 3px  #000 solid;
+    padding-top: 19px;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border: 25px #d23c0a solid;
+}
+
+.creator {
+    text-align: center;
+}
+
+.ans {
+    width: 60vw;
+    border: 3px #000 solid;
+}
+
+.send {
+    background-color: #d23c0a;
+    width: 15vw;
+    border: 3px #000 solid;
+}
+
+.end {
+    background-color: #242323;
+    width: 24vw;
+    border: 3px #000 solid;
+}
+
+.hint {
+    background-color: #1e5aaa;
+    width: 50vw;
+    border: 3px #000 solid;
+}
