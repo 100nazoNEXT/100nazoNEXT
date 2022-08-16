@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'pixelMplus12';
+    src: url("PixelMplus12-Bold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'pixelMplus12';
+    src: url("PixelMplus12-Regular.ttf") format('ttf');
+}
+
 header {
     float: left;
     position: fixed;
