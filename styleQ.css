@@ -37,8 +37,8 @@ body {
 
 .change p {
     position: absolute;
-    top: 0vw;
-    left: 45vw;
+    top: 3vw;
+    left: 49vw;
     display: inline-block;
     vertical-align: middle;
     font-size: 64px;
