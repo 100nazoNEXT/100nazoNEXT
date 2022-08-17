@@ -35,17 +35,13 @@ body {
     border: 0.3vw  #000 solid;
 }
 
-header {
-    position: absolute;
-    width: 100vw;
-}
-
 .change p {
-    position: relative;
-    top: -7.5vw;
+    position: absolute;
+    top: -4vw;
+    left: 45vw;
     display: inline-block;
     vertical-align: middle;
-    font-size: 60px;
+    font-size: 56px;
     color: white;
 }
 
