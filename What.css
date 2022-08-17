@@ -34,6 +34,12 @@ body {
     width: 100vw;
 }
 
-.area {
-    margin-top: 10vw;
+.k {
+    background-color: white;
+    border: 3px #000 solid;
+    margin-top: 20vw;
+}
+
+.area p {
+    font-size: 40px;
 }
