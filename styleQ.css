@@ -46,25 +46,45 @@ img {
     text-align: center;
 }
 
+.creator a {
+    color: #00e;
+}
+
+form {
+    text-align: center;
+}
+
 .ans {
+    display: inline-block;
+    font-family: "pixelMplus12";
+    font-size: 24px;
     width: 60vw;
-    height: 10vw;
+    height: 6vw;
     border: 3px #000 solid;
+    padding: 2vw;
     margin-bottom: 5vw;
 }
 
 .send {
     display: inline-block;
     background-color: #d23c0a;
+    color: white;
+    font-family: "pixelMplus12";
+    font-size: 24px;
     width: 15vw;
-    height: 10vw;
+    height: 12vw;
     border: 3px #000 solid;
+    padding: 1vw;
     margin-bottom: 5vw;
 }
 
 .btn {
     display: inline-block;
     text-align: center;
+}
+
+.command a {
+    text-decoration: none;
 }
 
 .btn p {
@@ -74,16 +94,18 @@ img {
 .end {
     background-color: #242323;
     width: 24vw;
-    height: 10vw;
+    height: 8vw;
     border: 3px #000 solid;
     margin-right: 2vw;
+    margin-bottom: 5vw;
 }
 
 .hint {
     background-color: #1e5aaa;
     width: 50vw;
-    height: 10vw;
+    height: 8vw;
     border: 3px #000 solid;
+    margin-bottom: 5vw;
 }
 
 .command {
