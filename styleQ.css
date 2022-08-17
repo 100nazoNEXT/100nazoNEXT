@@ -64,7 +64,7 @@ form {
     font-family: "pixelMplus12";
     font-size: 24px;
     width: 60vw;
-    height: 5vw;
+    height: 5.2vw;
     border: 3px #000 solid;
     padding: 2vw;
     margin-bottom: 5vw;
@@ -100,7 +100,7 @@ form {
 .end {
     background-color: #242323;
     width: 20vw;
-    height: 8vw;
+    height: 7vw;
     border: 3px #000 solid;
     margin-right: 2vw;
     margin-bottom: 5vw;
@@ -109,7 +109,7 @@ form {
 .hint {
     background-color: #1e5aaa;
     width: 46vw;
-    height: 8vw;
+    height: 7vw;
     border: 3px #000 solid;
     margin-right: 5vw;
     margin-bottom: 5vw;
