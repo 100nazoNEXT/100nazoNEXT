@@ -59,7 +59,7 @@ form {
 .ans {
     display: inline-block;
     font-family: "pixelMplus12";
-    font-size: 24px;
+    font-size: 32px;
     width: 60vw;
     height: 5.2vw;
     border: 3px #000 solid;
@@ -72,7 +72,7 @@ form {
     background-color: #d23c0a;
     color: white;
     font-family: "pixelMplus12";
-    font-size: 24px;
+    font-size: 32px;
     width: 15vw;
     height: 10vw;
     border: 3px #000 solid;
@@ -91,13 +91,17 @@ form {
 }
 
 .btn p {
+    font-size: 32px;
     color: white;
+    margin: 0;
+    vertical-align: middle;
 }
 
 .end {
     background-color: #242323;
     width: 20vw;
     height: 7vw;
+    line-height: 7vw;
     border: 3px #000 solid;
     margin-right: 2vw;
     margin-bottom: 5vw;
@@ -107,6 +111,7 @@ form {
     background-color: #1e5aaa;
     width: 46vw;
     height: 7vw;
+    line-height: 7vw;
     border: 3px #000 solid;
     margin-right: 5vw;
     margin-bottom: 5vw;
