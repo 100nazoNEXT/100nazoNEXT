@@ -2,9 +2,8 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <title>100日謎NEXT Q2</title>
+    <title>100日謎NEXT テスト</title>
     <link rel="stylesheet" href="styleQ.css">
-    <script src="main.js"></script>
 </head>
 <body>
     <div class="number">
@@ -17,9 +16,19 @@
         <p>作：ケロ松くん（<a href="https://twitter.com/keromatukun0826">＠keromatukun0826</a>）</p>
     </div>
     <div class="command">
-        <form>
-            <input  class="ans" placeholder="解答を入力"><button class="send" id="btn">送信</button>
+        <form name="checkform">
+            <input type="text"  class="ans" name="answer" placeholder="解答を入力">
+            <input type="button" class="send" value="送信" onClick="check()">
         </form>
+        <div id="popup"></div>
+        <script>
+        function check(){
+            const popup = document.getElementById("popup")
+            if (document.checkform.answer.value=="たからさがし"||document.checkform.answer.value=="タカラサガシ"||document.checkform.answer.value=="宝探し"||document.checkform.answer.value=="宝さがし"){ 
+                location.replace("https://100nazonext.github.io/100nazoNEXT/Q2clear.html");}
+            else {alert("WRONG ANSWER...")}
+        }
+        </script>
         <a class="btn end" href="index.html"><p>× 閉じる</p></a><a class="btn hint" href="Q2hint.html"><p>ヒントを見る</p></a>
     </div>
 </body>

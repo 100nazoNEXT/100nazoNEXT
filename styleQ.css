@@ -64,6 +64,7 @@ form {
     height: 5.2vw;
     border: 3px #000 solid;
     padding: 2vw;
+    margin-right: 0;
     margin-bottom: 5vw;
 }
 
@@ -74,9 +75,10 @@ form {
     font-family: "pixelMplus12";
     font-size: 32px;
     width: 15vw;
-    height: 9.8vw;
+    height: 9.5vw;
     border: 3px #000 solid;
     padding: 1vw;
+    margin-left: 0;
     margin-bottom: 5vw;
 }
 
