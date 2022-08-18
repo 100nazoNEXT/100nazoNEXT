@@ -99,20 +99,19 @@ form {
 
 .end {
     background-color: #242323;
-    width: 20vw;
+    width: 23vw;
     height: 9vw;
     line-height: 9vw;
     border: 3px #000 solid;
-    margin-right: 2vw;
     margin-bottom: 5vw;
 }
 
 .hint {
     background-color: #1e5aaa;
-    width: 46vw;
+    width: 48vw;
     height: 9vw;
     line-height: 9vw;
     border: 3px #000 solid;
-    margin-right: 5vw;
+    margin-right: 7vw;
     margin-bottom: 5vw;
 }
