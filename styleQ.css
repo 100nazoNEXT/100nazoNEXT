@@ -14,7 +14,6 @@ body {
     width: 12vw;
     height: 12vw;
     line-height: 12vw;
-    background-color: #d23c0a;
     border: 4px  #000 solid;
     margin: 0 auto;
     margin-top: 6vw;
@@ -37,7 +36,26 @@ body {
 img {
     height: 90vw;
     width: 90vw;
+}
+
+.a {
+    background-color: #d23c0a;
     border: 5vw #d23c0a solid;
+}
+
+.b {
+    background-color: #1e5aaa;
+    border: 5vw #1e5aaa solid;
+}
+
+.c {
+    background-color: #aa9104;
+    border: 5vw #aa9104 solid;
+}
+
+.d {
+    background-color: #999;
+    border: 5vw #999 solid;
 }
 
 .creator {

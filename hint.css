@@ -37,8 +37,23 @@ body {
 
 .nazo img {
     width: 50vw;
-    border: 2.5vw #d23c0a solid;
     margin: 15vw 24vw 5vw 24vw;
+}
+
+.a {
+    border: 2.5vw #d23c0a solid;
+}
+
+.b {
+    border: 2.5vw #1e5aaa solid;
+}
+
+.c {
+    border: 2.5vw #aa9104 solid;
+}
+
+.d {
+    border: 2.5vw #999 solid;
 }
 
 .hint *, .hint *:after, .hint *:before {
