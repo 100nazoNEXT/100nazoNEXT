@@ -74,7 +74,7 @@ form {
     font-family: "pixelMplus12";
     font-size: 32px;
     width: 15vw;
-    height: 10vw;
+    height: 9.72vw;
     border: 3px #000 solid;
     padding: 1vw;
     margin-bottom: 5vw;
@@ -83,7 +83,11 @@ form {
 .btn {
     display: inline-block;
     text-align: center;
-    margin-left: 10vw;
+}
+
+.command {
+    width: 79.55vw;
+    margin: 0 auto;
 }
 
 .command a {
@@ -99,19 +103,19 @@ form {
 
 .end {
     background-color: #242323;
-    width: 23vw;
+    width: 26vw;
     height: 9vw;
     line-height: 9vw;
     border: 3px #000 solid;
+    margin-right: 2.45vw;
     margin-bottom: 5vw;
 }
 
 .hint {
     background-color: #1e5aaa;
-    width: 48vw;
+    width: 50vw;
     height: 9vw;
     line-height: 9vw;
     border: 3px #000 solid;
-    margin-right: 7vw;
     margin-bottom: 5vw;
 }
