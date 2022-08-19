@@ -86,9 +86,12 @@ section {
     margin-top: 35vw;
 }
 
+
 .plus {
-    margin-top: 10vw;
+    position: relative;
+    top: 10vw;
 }
+
 
 .btn p {
     font-size: 44px;
