@@ -61,6 +61,8 @@ section {
 }
 
 .clear {
+    height: 9vw;
+    line-height: 9vw;
     text-align: center;
 }
 
@@ -70,23 +72,29 @@ section {
     width: 30vw;
     height: 9vw;
     line-height: 9vx;
-    padding: 1vw 1.5vw 1vw 1.5vw;
+    padding: 1vw 1.8vw 1vw 1.8vw;
+    margin-top: 3vw;
     margin-bottom: 5vw;
 }
 
 .clear p {
     font-size: 40px;
     margin: 0;
+    vertical-align: middle;
+}
+
+.btn {
+    margin-top: 40vw;
 }
 
 .btn p {
-    font-size: 40px;
+    font-size: 44px;
     margin: 0;
 }
 
 .next {
     background-color: #d23c0a;
-    width: 35vw;
+    width: 40vw;
 }
 
 a p {
@@ -105,17 +113,20 @@ a p {
 }
 
 .next{
+    height: 14vw;
+    line-height: 14vw;
     border: 3px #000 solid;
+    margin-bottom: 3vw;
 }
 
 .end {
     background-color: #242323;
-    width: 35vw;
-    height: 9vw;
-    line-height: 9vw;
+    width: 40vw;
+    height: 14vw;
+    line-height: 14vw;
     border: 3px #000 solid;
     margin-right: 2.45vw;
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
 }
 
 .a {
