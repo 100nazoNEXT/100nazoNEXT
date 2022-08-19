@@ -73,18 +73,24 @@ section {
     height: 9vw;
     line-height: 9vx;
     padding: 1vw 1.8vw 1vw 1.8vw;
-    margin-top: 3vw;
+    margin-top: 10vw;
     margin-bottom: 5vw;
 }
 
 .clear p {
     font-size: 40px;
+    line-height: 10px;
+    padding-top: 10px;
     margin: 0;
     vertical-align: middle;
 }
 
+.clear a p {
+    padding-top: 4vw;
+}
+
 .btn {
-    margin-top: 40vw;
+    margin-top: 35vw;
 }
 
 .btn p {
