@@ -71,7 +71,7 @@ section {
 }
 
 .clear p {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 10px;
     padding-top: 10px;
     margin: 0;
@@ -126,20 +126,4 @@ a p {
     border: 3px #000 solid;
     margin-right: 2.45vw;
     margin-bottom: 3vw;
-}
-
-.a {
-    border: 2.5vw #d23c0a solid;
-}
-
-.b {
-    border: 2.5vw #1e5aaa solid;
-}
-
-.c {
-    border: 2.5vw #aa9104 solid;
-}
-
-.d {
-    border: 2.5vw #999 solid;
 }
