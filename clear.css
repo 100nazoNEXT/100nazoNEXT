@@ -35,9 +35,21 @@ body {
     width: 100vw;
 }
 
+.btn {
+    display: inline-block;
+    text-align: center;
+}
+
 .nazo img {
+    position: relative;
     width: 50vw;
     margin: 15vw 24vw 5vw 24vw;
+}
+
+.maru img {
+    position: absolute;
+    width: 55vw;
+    opacity: 0.5;
 }
 
 .end {
