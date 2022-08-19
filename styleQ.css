@@ -38,23 +38,35 @@ img {
     width: 90vw;
 }
 
-.a {
+.aa {
     background-color: #d23c0a;
+}
+
+.a {
     border: 5vw #d23c0a solid;
 }
 
-.b {
+.aa {
     background-color: #1e5aaa;
+}
+
+.b {
     border: 5vw #1e5aaa solid;
 }
 
-.c {
+.aa {
     background-color: #aa9104;
+}
+
+.c {
     border: 5vw #aa9104 solid;
 }
 
-.d {
+.dd {
     background-color: #999;
+}
+
+.d {
     border: 5vw #999 solid;
 }
 
@@ -78,7 +90,7 @@ form {
     display: inline-block;
     font-family: "pixelMplus12";
     font-size: 32px;
-    width: 60vw;
+    width: 58vw;
     height: 5.2vw;
     border: 3px #000 solid;
     padding: 2vw;
