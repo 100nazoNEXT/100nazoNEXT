@@ -91,6 +91,11 @@ section {
     margin: 0;
 }
 
+.nex {
+    background-color: #999;
+    width: 40vw;
+}
+
 .next {
     background-color: #d23c0a;
     width: 40vw;
