@@ -40,6 +40,16 @@ body {
     margin: 15vw 24vw 5vw 24vw;
 }
 
+.end {
+    background-color: #242323;
+    width: 25vw;
+    height: 9vw;
+    line-height: 9vw;
+    border: 3px #000 solid;
+    margin-right: 2.45vw;
+    margin-bottom: 5vw;
+}
+
 .a {
     border: 2.5vw #d23c0a solid;
 }
