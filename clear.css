@@ -49,15 +49,8 @@ section {
 }
 
 .nazo img {
-    position: relative;
     width: 50vw;
     margin: 15vw 24vw 5vw 24vw;
-}
-
-.maru img {
-    position: absolute;
-    width: 55vw;
-    opacity: 0;
 }
 
 .clear {
