@@ -40,6 +40,10 @@ body {
     margin: 15vw 24vw 5vw 24vw;
 }
 
+.op p {
+    margin: 0;
+}
+
 .a {
     border: 2.5vw #d23c0a solid;
 }
