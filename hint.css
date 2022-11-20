@@ -60,6 +60,10 @@ body {
     border: 2.5vw #999 solid;
 }
 
+.e {
+    border: 2.5vw #000 solid;
+}
+
 .hint *, .hint *:after, .hint *:before {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;

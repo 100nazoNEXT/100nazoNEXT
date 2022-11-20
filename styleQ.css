@@ -70,6 +70,10 @@ img {
     border: 5vw #999 solid;
 }
 
+.e {
+    border: 5vw #000 solid;
+}
+
 .creator {
     text-align: center;
 }
