@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "pixelMplus12";
+    src: url("PixelMplus12-Regular.ttf") format("truetype");
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: "pixelMplus12";
+    margin:  0 auto;
+    width: 100vw;
+}
+
+.number {
+    width: 12vw;
+    height: 12vw;
+    line-height: 12vw;
+    border: 4px  #000 solid;
+    margin: 0 auto;
+    margin-top: 6vw;
+    margin-bottom: 5vw;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.number p {
+    font-size: 56px;
+    color: white;
+    height: 12vw;
+    margin: 0;
+}
+
+.nazo {
+    width: 100vw;
+}
+
+img {
+    height: 90vw;
+    width: 90vw;
+}
+
+.aa {
+    background-color: #d23c0a;
+}
+
+.a {
+    border: 5vw #d23c0a solid;
+}
+
+.bb {
+    background-color: #1e5aaa;
+}
+
+.b {
+    border: 5vw #1e5aaa solid;
+}
+
+.cc {
+    background-color: #aa9104;
+}
+
+.c {
+    border: 5vw #aa9104 solid;
+}
+
+.dd {
+    background-color: #999;
+}
+
+.d {
+    border: 5vw #999 solid;
+}
+
+.e {
+    border: 5vw #000 solid;
+}
+
+.creator {
+    text-align: center;
+}
+
+.creator a {
+    color: #00e;
+}
+
+.creator p {
+    font-size: 32px;
+}
+
+form {
+    text-align: center;
+}
+
+.ans {
+    display: inline-block;
+    font-family: "pixelMplus12";
+    font-size: 32px;
+    width: 58vw;
+    height: 5.2vw;
+    border: 3px #000 solid;
+    padding: 2vw;
+    margin-bottom: 5vw;
+}
+
+.send {
+    display: inline-block;
+    background-color: #d23c0a;
+    color: white;
+    font-family: "pixelMplus12";
+    font-size: 32px;
+    width: 15vw;
+    height: 9.6vw;
+    border: 3px #000 solid;
+    padding: 1vw;
+    margin-bottom: 5vw;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+}
+
+.command {
+    width: 79.5vw;
+    margin: 0 auto;
+}
+
+.command a {
+    text-decoration: none;
+}
+
+.btn p {
+    font-size: 32px;
+    color: white;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.end {
+    background-color: #242323;
+    width: 25vw;
+    height: 9vw;
+    line-height: 9vw;
+    border: 3px #000 solid;
+    margin-right: 2.45vw;
+    margin-bottom: 5vw;
+}
+
+.hint {
+    background-color: #1e5aaa;
+    width: 50vw;
+    height: 9vw;
+    line-height: 9vw;
+    border: 3px #000 solid;
+    margin-bottom: 5vw;
+}
