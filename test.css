@@ -49,7 +49,7 @@ body {
 
 .choice {
     display: inline;
-    font-size: 48px;
+    font-size: 32px;
     margin: 0 auto;
 }
 
@@ -149,12 +149,12 @@ body {
 }
 
 @media(max-width:850px){ 
-    .choice p {
-        font-size: 48px;
+    .choice {
+        font-size: 32px;
     }
 
     .skip p {
-        font-size: 0.75rem;
+        font-size: 16px;
     }
 
     .yoko {
