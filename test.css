@@ -149,19 +149,23 @@ body {
 }
 
 @media(max-width:850px){ 
-   .yoko {
+    .choice {
+        font-size: 1.5rem;
+    }
+
+    .yoko {
     width: 90vw;
     float: none;
-   }
+    }
 
-   .yoko2 {
+    .yoko2 {
     width: 90vw;
     float: none;
-   }
+    }
 
-   .nazo img {
-    height: 60vw;
-    width: 60vw;
+    .nazo img {
+    height: 70vw;
+    width: 70vw;
     }
 
     .a {
