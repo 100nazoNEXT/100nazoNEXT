@@ -138,9 +138,9 @@ body {
 .end {
     background-color: #242323;
     width: 23rem;
-    height: 4rem;
-    line-height: 4rem;
-    border: 1px #000 solid;
+    height: 5rem;
+    line-height: 5rem;
+    border: 0.25rem #000 solid;
 }
 
 .end p {
@@ -156,7 +156,7 @@ body {
     .escape a {
         margin: 0 auto;
         padding: 1vw 2.5vw;
-        margin-top: 6vw;
+        margin-top: 8vw;
     }
 
     .skip p {
@@ -195,6 +195,10 @@ body {
 
     .wer p {
         font-size: 12px;
+    }
+
+    .end {
+        border: 1px #000 solid;
     }
 
     .end p {
