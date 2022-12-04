@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>100日謎CONNECT</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="test.js"></script>
+</head>
+<body>
+    <div class="escape">
+        <p class="choice tytle">どっちの謎が面白い？</p>
+        <a class="btn skip tytle" href="index.html"><p>スキップ</p></a>
+    </div>
+    <div class="yoko">
+        <div class="nazo">
+            <img class="a" src="Q40.jpg">
+        </div>
+        <div class="ans">
+            <a class="btn wer" onclick="alert(generate_randomx(15))"><p>解説</p></a>
+        </div>
+        <div class="creator">
+            <br><p>作：<script>document.write(name[generate_randomx2(10)]);</script><br>（<a id="searchLink" href="https://twitter.com/arith_nazotoki">＠<script>document.write(id[3]);</script></a>）</p>
+        </div>
+    </div>
+    <div class="yoko">
+        <div class="nazo">
+            <img class="b" src="Q80.jpg">
+        </div>
+        <div class="ans">
+            <a class="btn wer" id="kaisetu" href="Q80正解.jpg"><p>解説</p></a>
+        </div>
+        <div class="creator">
+            <br><p>作：<script>document.write(name[0]);</script><br>（<a id="searchLink" href="https://twitter.com/arith_nazotoki">＠<script>document.write(id[5]);</script></a>）</p>
+        </div>
+    </div>
+    <div class="yoko2">
+        <a class="btn end" href="index.html"><p class="aa">赤枠の謎の方が面白い</p></a>
+    </div>
+    <div class="yoko2">
+        <a class="btn end" href="index.html"><p class="bb">青枠の謎の方が面白い</p></a>
+    </div>
+</body>
+</html>
