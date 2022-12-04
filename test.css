@@ -150,11 +150,11 @@ body {
 
 @media(max-width:850px){ 
     .choice {
-        font-size: 32px;
+        font-size: 24px;
     }
 
     .skip p {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .yoko {
@@ -181,9 +181,13 @@ body {
     }
 
     .wer {
-        width: 4rem;
+        width: 3.5rem;
         height: 2rem;
         line-height: 2rem;
         padding: 0.25rem;
+    }
+
+    .wer p {
+        font-size: 12px;
     }
 }
