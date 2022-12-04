@@ -150,9 +150,11 @@ body {
 }
 
 @media(max-width:850px){ 
-    .yoko {
-        flex-wrap: wrap;
-        float: left;
-        width: 45vw;
-    }
+   .yoko {
+    float: none;
+   }
+
+   .yoko2 {
+    float: none;
+   }
 }
