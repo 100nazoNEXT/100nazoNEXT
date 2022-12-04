@@ -164,7 +164,11 @@ body {
     width: 60vw;
     }
 
+    .a {
+        border: 3vw #d23c0a solid;
+    }
+
     .b {
-        border: 2vw #1e5aaa solid;
+        border: 3vw #1e5aaa solid;
     }
 }
