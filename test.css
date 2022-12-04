@@ -177,11 +177,11 @@ body {
     }
 
     .b {
-        border: 3vw #1e5a00 solid;
+        border: 3vw #1e5aaa solid;
     }
 
     .wer {
-        width: 4rem;
+        width: 3rem;
         height: 2rem;
         line-height: 2rem;
         padding: 0.25rem;
@@ -189,5 +189,9 @@ body {
 
     .wer p {
         font-size: 12px;
+    }
+
+    .yoko2 a {
+        width: 70vw;
     }
 }
