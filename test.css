@@ -149,10 +149,10 @@ body {
     margin: 0 auto;
 }
 
-@media(max-width:850px){
-    .yoko2 {
-        text-align: center;
-        float: none;
-        width: 85vw;
+@media(max-width:850px){ 
+    .yoko {
+        flex-wrap: wrap;
+        float: left;
+        width: 45vw;
     }
 }
