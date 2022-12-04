@@ -20,8 +20,8 @@ body {
 }
 
 .nazo img {
-    height: 30vw;
-    width: 30vw;
+    height: 70vw;
+    width: 70vw;
 }
 
 .aa {
@@ -49,7 +49,7 @@ body {
 
 .choice {
     display: inline;
-    font-size: 3rem;
+    font-size: 48px;
     margin: 0 auto;
 }
 
@@ -150,7 +150,7 @@ body {
 
 @media(max-width:850px){ 
     .choice p {
-        font-size: 1.5rem;
+        font-size: 48px;
     }
 
     .skip p {
