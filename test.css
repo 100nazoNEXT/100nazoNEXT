@@ -155,8 +155,8 @@ body {
 
     .escape a {
         margin: 0 auto;
-        padding: 1vw 2.5vw;
-        margin-top: 8vw;
+        padding: 0.5vw 2.5vw;
+        margin-top: 9vw;
     }
 
     .skip p {
@@ -198,7 +198,7 @@ body {
     }
 
     .end {
-        border: 1px #000 solid;
+        border: 3px #000 solid;
     }
 
     .end p {
