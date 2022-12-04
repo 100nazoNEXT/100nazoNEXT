@@ -154,7 +154,7 @@ body {
     }
 
     .escape a {
-        height: auto;
+        height: 0;
         padding: 2vw 3vw;
     }
 
@@ -182,7 +182,7 @@ body {
     }
 
     .b {
-        border: 3vw #1e5a00 solid;
+        border: 3vw #1e5aaa solid;
     }
 
     .wer {
@@ -201,6 +201,6 @@ body {
     }
 
     .yoko2 a {
-        width: 70vw;
+        width: 75vw;
     }
 }
