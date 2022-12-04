@@ -140,7 +140,7 @@ body {
     width: 23rem;
     height: 5rem;
     line-height: 5rem;
-    border: 0.25rem #000 solid;
+    border: 1px #000 solid;
 }
 
 .end p {
@@ -155,8 +155,8 @@ body {
 
     .escape a {
         margin: 0 auto;
-        padding: 1.5vw 2.5vw;
-        margin-top: 5vw;
+        padding: 1vw 2.5vw;
+        margin-top: 6vw;
     }
 
     .skip p {
