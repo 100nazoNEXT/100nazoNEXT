@@ -179,4 +179,11 @@ body {
     .b {
         border: 3vw #1e5aaa solid;
     }
+
+    .wer {
+        width: 4rem;
+        height: 2rem;
+        line-height: 2rem;
+        padding: 0.25rem;
+    }
 }
