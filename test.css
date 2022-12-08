@@ -12,7 +12,7 @@ body {
 
 .yoko {
     float: left;
-    width: 90vw;
+    width: 45vw;
 }
 
 .nazo {
@@ -20,8 +20,8 @@ body {
 }
 
 .nazo img {
-    height: 70vw;
-    width: 70vw;
+    height: 30vw;
+    width: 30vw;
 }
 
 .aa {
@@ -49,7 +49,7 @@ body {
 
 .choice {
     display: inline;
-    font-size: 32px;
+    font-size: 3rem;
     margin: 0 auto;
 }
 
@@ -104,7 +104,7 @@ body {
     text-align: center;
 }
 
-.yoko2 a {
+.yoko2 .al {
     display: inline-block;
     text-decoration: none;
     width: 32vw;
@@ -132,7 +132,8 @@ body {
 
 .yoko2 {
     text-align: center;
-    width: 90vw;
+    float: left;
+    width: 45vw;
 }
 
 .end {
@@ -216,7 +217,7 @@ body {
         font-size: 20px;
     }
 
-    .yoko2 a {
+    .yoko2 .al {
         width: 75vw;
     }
 }
