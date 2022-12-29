@@ -9,37 +9,70 @@
     <script src="test.js"></script>
 </head>
 <body>
+    <script>
+        let nazovotecnt = 0;
+        let numbers = [0,1,2,3,4,5,6,7]
+        arrayShuffle(numbers);
+    </script>
     <div class="escape">
         <p class="choice tytle">どっちの謎が面白い？</p>
-        <a class="btn skip tytle" href="test.html"><p>スキップ</p></a>
+        <a class="btn skip tytle" onclick="counter()"><p>スキップ</p></a>
     </div>
     <div class="yoko">
         <div class="nazo">
-            <img class="a" src="Q40.jpg">
+            <img id="gazou" class="a" src="#">
         </div>
         <div class="ans">
-            <a class="btn wer" onclick="alert(generate_randomx(15))"><p>解説</p></a>
+            <a class="btn wer"><p>解説</p></a>
         </div>
         <div class="creator">
-            <br><p>作：<script>document.write(name[6]);</script><br>（<a id="searchLink" href="https://twitter.com/arith_nazotoki">＠<script>document.write(id[3]);</script></a>）</p>
+            <br><p>作：<span id="cre"><script>document.write(namae[suuji = numbers[nazovotecnt]]);</script></span><br><span id="toumei">（<a id="link" href="#" target="_blank" rel="noopener noreferrer">＠<span id="uz"><script>document.write(at[nazovotecnt]);</script></span></a>）</span></p>
         </div>
+        <script>
+            let nazo = ['Q10.jpg','Q20.jpg','Q30.jpg','Q40.jpg','Q60.jpg','Q70.jpg','Q80.jpg','Q90.jpg']
+            let jp = nazo[suuji = numbers[nazovotecnt]];
+            document.getElementById("gazou").src=jp;
+            let chlink = document.getElementById('link');
+            let abcd = ['https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki']
+            let url = abcd[suuji = numbers[nazovotecnt]];
+            chlink.setAttribute('href', url);
+            if (numbers[nazovotecnt] == 6 || numbers[nazovotecnt] == 7) {
+            document.getElementById("toumei").style.visibility="hidden";
+            } else {
+                document.getElementById("toumei").style.visibility="visible";
+            }
+        </script>
     </div>
     <div class="yoko">
         <div class="nazo">
-            <img class="b" src="Q80.jpg">
+            <img id="gazou2" class="b" src="#">
         </div>
         <div class="ans">
             <a class="btn wer" id="kaisetu" href="Q80正解.jpg"><p>解説</p></a>
         </div>
         <div class="creator">
-            <br><p>作：<script>document.write(name[generate_randomx2(8)]);</script><br>（<a id="searchLink" href="https://twitter.com/arith_nazotoki">＠<script>document.write(id[5]);</script></a>）</p>
+            <br><p>作：<span id="cre2"><script>document.write(namae[suuji = numbers[nazovotecnt + 1]]);</script></span><br><span id="toumei2">（<a id="link2" href="#" target="_blank" rel="noopener noreferrer">＠<span id="uz2"><script>document.write(at[nazovotecnt + 1]);</script></span></a>）</span></p>
         </div>
+        <script>
+            let nazo2 = ['Q10.jpg','Q20.jpg','Q30.jpg','Q40.jpg','Q60.jpg','Q70.jpg','Q80.jpg','Q90.jpg']
+            let jp2 = nazo[suuji = numbers[nazovotecnt + 1]];
+            document.getElementById("gazou2").src=jp2;
+            let chlink2 = document.getElementById('link2');
+            let abcd2 = ['https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki','https://twitter.com/arith_nazotoki']
+            let url2 = abcd2[suuji = numbers[nazovotecnt + 1]];
+            chlink2.setAttribute('href', url2);
+            if (numbers[nazovotecnt + 1] == 6 || numbers[nazovotecnt + 1] == 7) {
+                document.getElementById("toumei2").style.visibility="hidden";
+            } else {
+                document.getElementById("toumei2").style.visibility="visible";
+            }
+        </script>
     </div>
     <div class="yoko2">
-        <div class="al btn end" href="test.html"><p class="aa">赤枠の謎の方が面白い</p></div>
+        <div class="al btn end" onclick="counter()"><p class="aa">赤枠の謎の方が面白い</p></div>
     </div>
     <div class="yoko2">
-        <div class="al btn end" href="test.html"><p class="bb">青枠の謎の方が面白い</p></div>
+        <div class="al btn end" onclick="counter()"><p class="bb">青枠の謎の方が面白い</p></div>
     </div>
 </body>
 </html>
