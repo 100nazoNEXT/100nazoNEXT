@@ -30,20 +30,23 @@ function counter(){
     document.getElementById("gazou").src=jp;
     jp2 = nazo[num = numbers[nazovotecnt + 1]];
     document.getElementById("gazou2").src=jp2;
-    chwer = naz[suuji = numbers[nazovotecnt]];
-    document.getElementById("werch").src=chwer;
-    chwer2 = naz2[suuji = numbers[nazovotecnt + 1]];
-    document.getElementById("werch2").src=chwer2;
-    document.getElementById("vi").innerHTML = prex();
-        document.getElementById("vi2").innerHTML = prex2();
     if (numbers[nazovotecnt] == 0 || numbers[nazovotecnt] == 6) {
+        document.getElementById("vi").innerHTML = prex();
         document.getElementById("vis").style.display="block";
         document.getElementById("visi").style.display="none";
+    } else {
+        chwer = naz[suuji = numbers[nazovotecnt]];
+        document.getElementById("werch").src=chwer;
+        document.getElementById("vis").style.display="none";
+        document.getElementById("visi").style.display="block";
+    }
+    if (numbers[nazovotecnt + 1] == 0 || numbers[nazovotecnt + 1] == 6) {
+        document.getElementById("vi2").innerHTML = prex2();
         document.getElementById("vis2").style.display="block";
         document.getElementById("visi2").style.display="none";
     } else {
-        document.getElementById("vis").style.display="none";
-        document.getElementById("visi").style.display="block";
+        chwer2 = naz2[suuji = numbers[nazovotecnt + 1]];
+        document.getElementById("werch2").src=chwer2;
         document.getElementById("vis2").style.display="none";
         document.getElementById("visi2").style.display="block";
     }
