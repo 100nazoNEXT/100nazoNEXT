@@ -23,7 +23,31 @@
             <img id="gazou" class="a" src="#">
         </div>
         <div class="ans">
-            <a class="btn wer"><p>解説</p></a>
+            <label class="btn wer">
+                <span class="ansd">解説</span>
+                <input type="checkbox" name="checkbox">
+                <div id="popup" class="ban">
+                    <div class="migiyose"><p class="x">×</p></div>
+                    <span id="vis">
+                        <p class="kaibun">
+                            <span id="vi"><script>document.write(ex[suuji = numbers[nazovotecnt]]);</script></span>
+                        </p>
+                    </span>
+                    <span id="visi"><img id="werch" src="Q40正解.jpg"></span>
+                    <script>
+                        let naz = ['Q10.jpg','Q20.jpg','Q30.jpg','Q40.jpg','Q60.jpg','Q70.jpg','Q80.jpg','Q90.jpg']
+                        let chwer = naz[suuji = numbers[nazovotecnt]];
+                        document.getElementById("werch").src=chwer;
+                        if (numbers[nazovotecnt] == 0 || numbers[nazovotecnt] == 6) {
+                            document.getElementById("vis").style.display="block";
+                            document.getElementById("visi").style.display="none";
+                        } else {
+                            document.getElementById("vis").style.display="none";
+                            document.getElementById("visi").style.display="block";
+                        }
+                    </script>
+                </div>
+            </label>
         </div>
         <div class="creator">
             <br><p>作：<span id="cre"><script>document.write(namae[suuji = numbers[nazovotecnt]]);</script></span><br><span id="toumei">（<a id="link" href="#" target="_blank" rel="noopener noreferrer">＠<span id="uz"><script>document.write(at[nazovotecnt]);</script></span></a>）</span></p>
@@ -48,7 +72,31 @@
             <img id="gazou2" class="b" src="#">
         </div>
         <div class="ans">
-            <a class="btn wer" id="kaisetu" href="Q80正解.jpg"><p>解説</p></a>
+            <label class="btn wer">
+                <span class="ansd">解説</span>
+                <input type="checkbox" name="checkbox">
+                <div id="popup" class="ban">
+                    <div class="migiyose"><p class="x">×</p></div>
+                    <span id="vis2">
+                        <p class="kaibun">
+                            <span id="vi2"><script>document.write(ex[suuji = numbers[nazovotecnt + 1]]);</script></span>
+                        </p>
+                    </span>
+                    <span id="visi2"><img id="werch2" src="Q80正解.jpg"></span>
+                    <script>
+                        let naz2 = ['Q10.jpg','Q20.jpg','Q30.jpg','Q40.jpg','Q60.jpg','Q70.jpg','Q80.jpg','Q90.jpg']
+                        let chwer2 = naz2[suuji = numbers[nazovotecnt + 1]];
+                        document.getElementById("werch2").src=chwer2;
+                        if (numbers[nazovotecnt + 1] == 0 || numbers[nazovotecnt + 1] == 6) {
+                            document.getElementById("vis2").style.display="block";
+                            document.getElementById("visi2").style.display="none";
+                        } else {
+                            document.getElementById("vis2").style.display="none";
+                            document.getElementById("visi2").style.display="block";
+                        }
+                    </script>
+                </div>
+            </label>
         </div>
         <div class="creator">
             <br><p>作：<span id="cre2"><script>document.write(namae[suuji = numbers[nazovotecnt + 1]]);</script></span><br><span id="toumei2">（<a id="link2" href="#" target="_blank" rel="noopener noreferrer">＠<span id="uz2"><script>document.write(at[nazovotecnt + 1]);</script></span></a>）</span></p>

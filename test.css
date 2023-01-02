@@ -99,12 +99,21 @@ body {
     right: 6.5vw;
 }
 
+.ans label {
+    text-decoration: none;
+}
+
 .btn {
     display: inline-block;
     text-align: center;
 }
 
+.btn :hover {
+    cursor:pointer;
+}
+
 .yoko2 .al {
+    color: white;
     display: inline-block;
     text-decoration: none;
     width: 32vw;
@@ -113,7 +122,6 @@ body {
 }
 
 .btn p {
-    color: white;
     margin: 0 auto;
     vertical-align: middle;
 }
@@ -126,7 +134,7 @@ body {
     padding: 0.5rem;
 }
 
-.wer p {
+.wer span {
     font-size: 2rem;
 }
 
@@ -147,6 +155,75 @@ body {
 .end p {
     font-size: 2rem;
     margin: 0 auto;
+}
+
+#popup{
+    width:35vw;
+    line-height:100px;
+    box-sizing:border-box;
+    display:none;
+    position:fixed;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.ban .x{
+    width: 6vw;
+    margin-right: 0;
+    margin-left: auto;
+    height: 6vw;
+    right: 1px;
+    line-height: 6vw;
+    font-size: 64px;
+    text-align: center;
+    color: #fff;
+    background-color: #242423;
+}
+
+.migiyose {
+    width: 100%;
+    display: block;
+}
+
+.kaibun {
+    font-size: 12px;
+    text-align: left;
+    border: 4px #000 solid;
+    color: #000;
+    line-height: 2.5em;
+    padding: 1vw 2vw; 
+    background-color: #fff;
+}
+
+.ban img{
+    width:100%;
+    border: 4px #000 solid;
+    box-sizing: border-box;
+}
+
+label{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+label .ansd {
+    color: white;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+label span:hover{
+    cursor:pointer;
+}
+
+input[type="checkbox"]{
+    display:none;
+}
+
+input[type="checkbox"]:checked + #popup{
+    display:block;
 }
 
 @media(max-width:850px){ 
@@ -203,7 +280,7 @@ body {
         padding: 0.1rem 0.25rem;
     }
 
-    .wer p {
+    .ansd {
         font-size: 12px;
     }
 
