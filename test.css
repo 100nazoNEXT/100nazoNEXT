@@ -185,16 +185,22 @@ body {
 .kaibun {
     font-size: 2rem;
     text-align: left;
-    border: 4px #000 solid;
     color: #000;
     line-height: 1.5em;
     padding: 1vw 2vw; 
     background-color: #fff;
 }
 
+.ak {
+    border: 4px #d23c0a solid;
+}
+
+.ao {
+    border: 4px #1e5aaa solid;
+}
+
 .ban img{
     width:100%;
-    border: 4px #000 solid;
     box-sizing: border-box;
 }
 
@@ -308,7 +314,7 @@ input[type="checkbox"]:checked + #popup{
     }
 
     #popup{
-        width:35vw;
+        width:90vw;
         line-height:100px;
         box-sizing:border-box;
         display:none;
@@ -320,12 +326,11 @@ input[type="checkbox"]:checked + #popup{
     }
     
     .ban .x{
-        width: 6vw;
+        width: 15vw;
         margin-right: 0;
         margin-left: auto;
-        height: 6vw;
-        right: 1px;
-        line-height: 6vw;
+        height: 15vw;
+        line-height: 15vw;
         font-size: 64px;
         text-align: center;
         color: #fff;
@@ -340,7 +345,6 @@ input[type="checkbox"]:checked + #popup{
     .kaibun {
         font-size: 2rem;
         text-align: left;
-        border: 4px #df0 solid;
         color: #000;
         line-height: 1.5em;
         padding: 1vw 2vw; 
@@ -349,7 +353,6 @@ input[type="checkbox"]:checked + #popup{
     
     .ban img{
         width:100%;
-        border: 4px #000 solid;
         box-sizing: border-box;
     }
     
