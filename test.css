@@ -93,7 +93,6 @@ body {
 
 .ans {
     font-family: "pixelMplus12";
-    font-size: 2rem;
     float: right;
     position: relative;
     right: 6.5vw;
@@ -132,10 +131,6 @@ body {
     height: 3rem;
     line-height: 3rem;
     padding: 0.5rem;
-}
-
-.wer span {
-    font-size: 2rem;
 }
 
 .yoko2 {
@@ -188,7 +183,7 @@ body {
 }
 
 .kaibun {
-    font-size: 12px;
+    font-size: 2rem;
     text-align: left;
     border: 4px #000 solid;
     color: #000;
@@ -204,11 +199,12 @@ body {
 }
 
 label{
+    font-size: 2rem;
     display:inline-block;
     vertical-align: middle;
 }
 
-label .ansd {
+.ansd {
     color: white;
     margin: 0 auto;
     text-decoration: none;
