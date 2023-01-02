@@ -162,6 +162,7 @@ body {
     left:50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    z-index: 20;
 }
 
 .ban .x{
@@ -214,6 +215,7 @@ label{
     color: white;
     margin: 0 auto;
     text-decoration: none;
+    z-index: 10;
 }
 
 label span:hover{
@@ -297,6 +299,7 @@ input[type="checkbox"]:checked + #popup{
         height: 2rem;
         font-size: 16px;
         vertical-align: middle;
+        z-index: 10;
     }
 
     .end {
@@ -323,6 +326,7 @@ input[type="checkbox"]:checked + #popup{
         left:50%;
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+        z-index: 20;
     }
     
     .ban .x{
@@ -330,6 +334,7 @@ input[type="checkbox"]:checked + #popup{
         margin-right: 0;
         margin-left: auto;
         height: 15vw;
+        right: 2px;
         line-height: 15vw;
         font-size: 64px;
         text-align: center;
@@ -343,7 +348,7 @@ input[type="checkbox"]:checked + #popup{
     }
     
     .kaibun {
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: left;
         color: #000;
         line-height: 1.5em;
