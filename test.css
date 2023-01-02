@@ -166,12 +166,12 @@ body {
 }
 
 .ban .x{
-    width: 9vw;
+    width: 6vw;
     margin-right: 0;
-    margin-left: auto;
-    height: 9vw;
+    padding-left: 0.3vw;
+    height: 6vw;
     right: 1px;
-    line-height: 9vw;
+    line-height: 6vw;
     font-size: 64px;
     text-align: center;
     color: #fff;
@@ -330,14 +330,14 @@ input[type="checkbox"]:checked + #popup{
     }
     
     .ban .x{
-        width: 20vw;
+        width: 15vw;
         margin-right: 0;
-        margin-left: auto;
-        height: 20vw;
-        line-height: 20vw;
+        padding-left: 2vw;
+        height: 15vw;
+        line-height: 15vw;
         font-size: 64px;
         text-align: center;
-        color: #f0f;
+        color: #fff;
         background-color: #242423;
     }
     
@@ -349,7 +349,7 @@ input[type="checkbox"]:checked + #popup{
     .kaibun {
         font-size: 1.5rem;
         text-align: left;
-        color: #000;
+        color: #050;
         line-height: 1.5em;
         padding: 1vw 2vw; 
         background-color: #fff;
