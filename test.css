@@ -166,12 +166,12 @@ body {
 }
 
 .ban .x{
-    width: 6vw;
+    width: 9vw;
     margin-right: 0;
     margin-left: auto;
-    height: 6vw;
+    height: 9vw;
     right: 1px;
-    line-height: 6vw;
+    line-height: 9vw;
     font-size: 64px;
     text-align: center;
     color: #fff;
@@ -330,12 +330,11 @@ input[type="checkbox"]:checked + #popup{
     }
     
     .ban .x{
-        width: 15vw;
+        width: 20vw;
         margin-right: 0;
         margin-left: auto;
-        height: 15vw;
-        right: 16px;
-        line-height: 15vw;
+        height: 20vw;
+        line-height: 20vw;
         font-size: 64px;
         text-align: center;
         color: #f0f;
