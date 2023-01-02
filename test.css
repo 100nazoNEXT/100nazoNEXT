@@ -277,7 +277,9 @@ input[type="checkbox"]:checked + #popup{
     }
 
     .ansd {
-        font-size: 12px;
+        width: auto;
+        font-size: 16px;
+        vertical-align: middle;
     }
 
     .end {
@@ -293,4 +295,57 @@ input[type="checkbox"]:checked + #popup{
     .yoko2 .al {
         width: 75vw;
     }
+
+    #popup{
+        width:35vw;
+        line-height:100px;
+        box-sizing:border-box;
+        display:none;
+        position:fixed;
+        top:50%;
+        left:50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+    .ban .x{
+        width: 6vw;
+        margin-right: 0;
+        margin-left: auto;
+        height: 6vw;
+        right: 1px;
+        line-height: 6vw;
+        font-size: 64px;
+        text-align: center;
+        color: #fff;
+        background-color: #242423;
+    }
+    
+    .migiyose {
+        width: 100%;
+        display: block;
+    }
+    
+    .kaibun {
+        font-size: 2rem;
+        text-align: left;
+        border: 4px #000 solid;
+        color: #000;
+        line-height: 1.5em;
+        padding: 1vw 2vw; 
+        background-color: #fff;
+    }
+    
+    .ban img{
+        width:100%;
+        border: 4px #000 solid;
+        box-sizing: border-box;
+    }
+    
+    label{
+        font-size: 2rem;
+        display:inline-block;
+        vertical-align: middle;
+    }
+    
 }
