@@ -288,6 +288,7 @@ input[type="checkbox"]:checked + #popup{
         left: 0;
         margin: auto;
         width: 3rem;
+        height: 2rem;
         font-size: 16px;
         vertical-align: middle;
     }
@@ -339,7 +340,7 @@ input[type="checkbox"]:checked + #popup{
     .kaibun {
         font-size: 2rem;
         text-align: left;
-        border: 4px #0f0 solid;
+        border: 4px #df0 solid;
         color: #000;
         line-height: 1.5em;
         padding: 1vw 2vw; 
