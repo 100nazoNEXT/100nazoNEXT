@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>アリスの100日謎 Q4</title>
+    <link rel="stylesheet" href="arithStyleQ.css">
+</head>
+<body>
+    <div class="number aa">
+        <p>Q4</p>
+    </div>
+    <div class="nazo">
+        <img class="a" src="ArithQ4.jpg">
+    </div>
+    <div class="creator">
+        <p>作：アリス（<a href="https://twitter.com/arith_nazotoki">＠arith_nazotoki</a>）</p>
+    </div>
+    <div class="command">
+        <form name="checkform">
+            <input type="text"  class="ans" name="answer" placeholder="解答を入力">
+            <input type="button" class="send" value="送信" onClick="check()">
+        </form>
+        <script>
+        function check(){
+            const popup = document.getElementById("popup")
+            if (document.checkform.answer.value=="カメ"||document.checkform.answer.value=="かめ"||document.checkform.answer.value=="亀"){ 
+                location.replace("https://100nazonext.github.io/100nazoNEXT/arithQ4clear6rg8");}
+            else {alert("不正解です")}
+        }
+        </script>
+        <a class="btn end" href="arithIndex.html"><p>× 閉じる</p></a><a class="btn hint" href="arithQ4hint.html"><p>ヒントを見る</p></a>
+    </div>
+</body>
+</html>
