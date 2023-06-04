@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>アリスの100日謎 Q23</title>
+    <link rel="stylesheet" href="arithStyleQ.css">
+</head>
+<body>
+    <div class="number aa">
+        <p>Q23</p>
+    </div>
+    <div class="nazo">
+        <img class="a" src="ArithQ23.jpg">
+    </div>
+    <div class="creator">
+        <p>作：アリス（<a href="https://twitter.com/arith_nazotoki">＠arith_nazotoki</a>）</p>
+    </div>
+    <div class="command">
+        <form name="checkform">
+            <input type="text"  class="ans" name="answer" placeholder="解答を入力">
+            <input type="button" class="send" value="送信" onClick="check()">
+        </form>
+        <script>
+        function check(){
+            const popup = document.getElementById("popup")
+            if (document.checkform.answer.value=="桜"||document.checkform.answer.value=="さくら"||document.checkform.answer.value=="サクラ"){ 
+                location.replace("https://100nazonext.github.io/100nazoNEXT/arithQ23clear208f.html");}
+            else {alert("不正解です")}
+        }
+        </script>
+        <a class="btn end" href="arithIndex.html"><p>× 閉じる</p></a><a class="btn hint" href="arithQ23hint.html"><p>ヒントを見る</p></a>
+    </div>
+</body>
+</html>
